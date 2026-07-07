@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Datasets and generated artifacts
+dataset/*/train/
+dataset/*/val/
+dataset/*/test/
+dataset/**/*_manifest.json
+ckpt/
+outputs/
+run/output/
+
+# Model and experiment files
+*.pth
+*.pt
+*.ckpt
+*.log
+*.pid
+*.png
+
+# Notebooks and editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
